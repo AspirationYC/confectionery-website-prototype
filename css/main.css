@@ -54,3 +54,43 @@ nav li a:hover {
   display: block;
   background-color: #13858f;
 }
+
+main img {
+  display: block;
+  width: 100%;
+}
+
+h2 {
+  padding-left: .75em;
+  font-family: 'Concert One', cursive;
+}
+
+section p {
+  padding-left: .75em;
+}
+
+section .bold-font {
+  font-weight: bold;
+}
+
+section img {
+  width: 100%;
+}
+
+footer {
+  background-color: #16b5c3;
+  padding: .25em;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+footer p {
+  margin: 0;
+  padding: .5em 0;
+  color: #fff;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
