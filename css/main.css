@@ -60,17 +60,33 @@ nav li a:hover {
   background-color: #13858f;
 }
 
+main figure {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin: 0;
+}
+
+main figcaption {
+  position: absolute;
+  top: 0;
+  padding: .5em;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  width: 100%;
+  text-align: center;
+
+
+}
+
 main p{
   text-align: center;
+  margin-top: 1.5em;
 }
 
 main img {
   display: block;
   width: 100%;
-}
-
-main p {
-  margin-top: 1.5em;
 }
 
 .button {
@@ -170,7 +186,14 @@ footer a {
     width: 32.8%;
     display: inline-block;
   }
-}
+
+  main figure {
+    display: inline;
+  }
+
+  main figcaption {
+    width: 32.8%;
+  }
 
 @media only screen and (min-width: 60em) {
 
