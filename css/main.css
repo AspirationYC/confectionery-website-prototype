@@ -65,7 +65,12 @@ nav li a:hover {
   background-color: #13858f;
 }
 
-main {
+main .featured-wrapper {
+  clear: left;
+  overflow: hidden;
+}
+
+main .all-bonbons-wrapper {
   clear: left;
   overflow: hidden;
 }
@@ -116,7 +121,7 @@ h2 {
 }
 
 section p {
-  padding-left: .75em;
+  padding: 0 .75em;
 }
 
 section .bold-font {
@@ -132,8 +137,6 @@ section .img-person {
 }
 
 section .about-text {
-  margin: 1em;
-  padding-left: 0;
   display: block;
 }
 
@@ -216,13 +219,23 @@ footer small {
     margin: 0;
   }
 
+  section .location-wrapper {
+    position: relative;
+    clear: right;
+    overflow: hidden;
+  }
+
   section .location-info {
     display: inline-block;
     width: 40%;
   }
 
-  section .location-map {
+  section .location-map img {
     display: inline-block;
+    position: absolute;
+    float: right;
+    bottom: 10px;
+    right: 40px;
     width: 50%;
   }
 }
