@@ -136,15 +136,7 @@ section .img-person {
   display: block;
 }
 
-section .about-text {
-  display: block;
-}
-
 section .location-info {
-  display: block;
-}
-
-section .location-map {
   display: block;
 }
 
