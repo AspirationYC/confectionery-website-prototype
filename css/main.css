@@ -229,10 +229,11 @@ footer small {
     width: 40%;
   }
 
-  section .location-map img {
+  section .location-wrapper .map-flex{
     display: inline-block;
     float: right;
     width: 50%;
+    margin-right: 1.7em;
   }
 }
 
