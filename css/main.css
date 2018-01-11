@@ -70,10 +70,6 @@ main {
   overflow: hidden;
 }
 
-main h2 {
-  margin: 1em 0;
-}
-
 main figure {
   position: relative;
   float: left;
@@ -189,7 +185,7 @@ footer small {
     padding: 0 .425em;
   }
 
-  main figure{
+  main figure {
     width: 33.3333%;
   }
 }
