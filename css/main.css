@@ -200,8 +200,14 @@ footer small {
     line-height: 1.5;
   }
 
+  section .about-wrapper {
+    clear: left;
+    overflow: hidden;
+  }
+
   section .img-person {
     display: inline-block;
+    float: left;
     width: 20%;
   }
 
@@ -209,14 +215,8 @@ footer small {
     height: 20%;
   }
 
-  section .about-text {
-    display: inline-block;
-    width: 70%;
-    margin-top: 0;
-  }
-
-  section .about-text p {
-    margin: 0;
+  section .about-wrapper p {
+    margin: 0 .75em;
   }
 
   section .location-wrapper {
