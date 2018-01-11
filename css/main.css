@@ -234,7 +234,7 @@ footer small {
     display: inline-block;
     position: absolute;
     float: right;
-    bottom: 10px;
+    top: 10px;
     right: 40px;
     width: 50%;
   }
