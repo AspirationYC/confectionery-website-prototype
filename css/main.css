@@ -99,9 +99,26 @@ section .bold-font {
   font-weight: bold;
 }
 
-.about-box p {
+section img {
+  width: 100%;
+}
+
+section .img-person {
+  display: block;
+}
+
+section .about-text {
   margin: 1em;
   padding-left: 0;
+  display: block;
+}
+
+section .location-info {
+  display: block;
+}
+
+section .location-map {
+  display: block;
 }
 
 footer {
@@ -153,40 +170,6 @@ footer a {
     width: 32.8%;
     display: inline-block;
   }
-
-  figure {
-    position: relative;
-    margin: 0;
-    overflow: hidden;
-  }
-
-  section .about-wrapper{
-    clear: left;
-
-  }
-
-  section .person {
-    float: left;
-  }
-
-  .map-flex {
-    width: 50%;
-    float: right;
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    top: 100px;
-  }
-
-  /*.clearfix:before,
-  .clearfix:after {
-    content: "";
-    display: table;
-  }
-
-  .clearfix:after {
-    clear:both;
-  } */
 }
 
 @media only screen and (min-width: 60em) {
@@ -194,6 +177,35 @@ footer a {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  section .img-person {
+    display: inline-block;
+    width: 20%;
+  }
+
+  section .img-person img {
+    height: 20%;
+  }
+
+  section .about-text {
+    display: inline-block;
+    width: 70%;
+    margin-top: 0;
+  }
+
+  section .about-text p {
+    margin: 0;
+  }
+
+  section .location-info {
+    display: inline-block;
+    width: 40%;
+  }
+
+  section .location-map {
+    display: inline-block;
+    width: 50%;
   }
 }
 
