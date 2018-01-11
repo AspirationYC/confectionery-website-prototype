@@ -99,10 +99,6 @@ section .bold-font {
   font-weight: bold;
 }
 
-section img {
-  width: 100%;
-}
-
 .about-box p {
   margin: 1em;
   padding-left: 0;
@@ -147,5 +143,63 @@ footer a {
 
   nav li {
     width: 25%;
+  }
+
+  nav li a {
+    padding: 0 .4.25em;
+  }
+
+  main img {
+    width: 32.8%;
+    display: inline-block;
+  }
+
+  figure {
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  section .about-wrapper{
+    clear: left;
+
+  }
+
+  section .person {
+    float: left;
+  }
+
+  .map-flex {
+    width: 50%;
+    float: right;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    top: 100px;
+  }
+
+  /*.clearfix:before,
+  .clearfix:after {
+    content: "";
+    display: table;
+  }
+
+  .clearfix:after {
+    clear:both;
+  } */
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
   }
 }
