@@ -220,7 +220,6 @@ footer small {
   }
 
   section .location-wrapper {
-    position: relative;
     clear: right;
     overflow: hidden;
   }
@@ -232,10 +231,7 @@ footer small {
 
   section .location-map img {
     display: inline-block;
-    position: absolute;
     float: right;
-    top: 10px;
-    right: 40px;
     width: 50%;
   }
 }
