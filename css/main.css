@@ -28,7 +28,7 @@ nav {
 }
 
 nav h1 {
-  font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
   font-size: 2em;
   margin: 0;
   text-align: center;
@@ -48,6 +48,11 @@ nav li {
   text-align: center;
   padding-top: .5em;
   width: 100%;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
 }
 
 nav li a {
@@ -75,11 +80,9 @@ main figcaption {
   color: #fff;
   width: 100%;
   text-align: center;
-
-
 }
 
-main p{
+main p {
   text-align: center;
   margin-top: 1.5em;
 }
@@ -104,7 +107,7 @@ main img {
 
 h2 {
   padding-left: .75em;
-  font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
 }
 
 section p {
@@ -147,11 +150,6 @@ footer {
 footer p {
   margin: 0;
   padding: .5em 0;
-  color: #fff;
-}
-
-footer a {
-  text-decoration: none;
   color: #fff;
 }
 
